@@ -1,10 +1,11 @@
 .. _introduction:
 
+========================
 Introduction
-============
+========================
 
 Introduction to the Plug & Trust Nano Package
----------------------------------------------
+===============================================
 
 The Plug & Trust Nano package is an optimized middleware for communicating between a host processor or microcontroller and
 the EdgeLock SE05x and A5000 secure elements and authenticators. The Plug & Trust Nano Package has been designed for memory constrained
@@ -46,7 +47,7 @@ Nano Package -
 
 
 PlatformSCP03
--------------
+===============================================
 
 Using nano package, host can establish encrypted I2C communication via PlatformSCP channel
 (based on Global Platform SCP03). This requires some host crypto operations.
@@ -84,7 +85,7 @@ The Default Platform SCP keys for ease of use configurations are present in
 
 
 Build option
-------------
+===============================================
 
 Platform SCP03 ::
 
@@ -98,19 +99,22 @@ Debug Logs ::
 
 
 Examples
---------
+===============================================
 
-**Examples on linux**
+Examples on linux
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Refer `simw-nanopkg/examples/<example>/readme.rst`. :ref:`linux_examples`
 
-**Examples on k64**
+Examples on k64
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Refer `simw-nanopkg/se05x_sign/k64f/readme.rst`. :ref:`ex_se05x_sign_k64`
 
 Refer `simw-nanopkg/se05x_crypto/k64/readme.rst`. :ref:`ex_se05x_crypto_k64`
 
-**Examples on Zephyr OS**
+Examples on Zephyr OS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Integration of nano package in Zephyr OS is maintained in branch - **feature/zephyr-integration**
 
@@ -124,7 +128,7 @@ Refer `simw-nanopkg/zephyr/readme.rst`. :ref:`se05x_zephyr_integration`
 
 
 Porting
--------
+===============================================
 
 Platform specific files are maintained in **simw-nanopkg/lib/platform** folder.
 
@@ -132,7 +136,7 @@ Modify / add the files here to support other platforms. By default port files ar
 
 
 Mbedtls Alt files
------------------
+===============================================
 
 Nano package provides MbedTLS Alt files as an alternative/additional approach to access the secure element using mbedTLS.
 
