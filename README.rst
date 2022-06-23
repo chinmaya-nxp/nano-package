@@ -109,7 +109,7 @@ Refer `simw-nanopkg/examples/<example>/readme.rst`. :ref:`linux_examples`
 Examples on k64
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Refer `simw-nanopkg/se05x_sign/k64f/readme.rst`. :ref:`examples/se05x_sign/readme`
+Refer `simw-nanopkg/se05x_sign/k64f/readme.rst`. :ref:`examples/se05x_sign/readme.rst`
 
 Refer `simw-nanopkg/se05x_crypto/k64/readme.rst`. :ref:`ex_se05x_crypto_k64`
 
